@@ -7,7 +7,7 @@ const btn = document.querySelector('.btn');
 const updateAdvice = function (data) {
     const { slip } = data;
     adviceId.textContent = slip.id;
-    adviceText.textContent = slip.advice;
+    adviceText.textContent = `"${slip.advice}"`;
 };
 
 const fetchAdvice = async function () {
