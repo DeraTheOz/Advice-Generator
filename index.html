@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+        <title>Advice generator</title>
+
+        <script defer src="app.js"></script>
+    </head>
+    <body>
+        <main>
+            <section>
+                <div class="container">
+                    <h2 class="advice__id">Advice #<span class="id">117</span></h2>
+                    <p class="advice__text">A common regret in life is wishing one hadn't worked so hard."</p>
+
+                    <picture class="divider">
+                        <source
+                            srcset="./images/pattern-divider-mobile.svg"
+                            type="image/svg+xml"
+                            media="(max-width: 26.125rem)"
+                        />
+                        <source
+                            srcset="./images/pattern-divider-desktop.svg"
+                            type="image/svg+xml"
+                            media="(min-width: 26.25rem)"
+                        />
+                        <img src="./images/pattern-divider-desktop.svg" alt="pattern divider" />
+                    </picture>
+
+                    <button type="submit" class="btn">
+                        <svg class="icon-dice">
+                            <use xlink:href="./images/icon-dice.svg#dice"></use>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
