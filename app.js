@@ -4,8 +4,6 @@ const adviceId = document.querySelector('.id');
 const adviceText = document.querySelector('.advice__text');
 const btn = document.querySelector('.btn');
 
-let lastAdviceId = null;
-
 const updateAdvice = function (data) {
     const { slip } = data;
     adviceId.textContent = slip.id;
